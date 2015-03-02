@@ -1,0 +1,37 @@
+@import '../layout';
+@import '../theme';
+
+.shield {
+  position:relative;
+  bottom:0;
+  right:0;
+  display:inline-block;
+  width:$shield-width;;
+  height:2em;
+  margin-bottom:0.6em;
+  cursor:pointer;
+}
+
+.shield img {
+  position:relative;
+  width:100%;
+  height:100%;
+}
+
+.shield:after {
+  $half-width:$shield-width / 2;
+  content:'';
+  position:absolute;
+  top:100%;
+  display:block;
+  border-top:solid $half-width / 2;
+  border-left:solid $half-width transparent;
+  border-right:solid $half-width transparent;
+}
+
+.shield:active {
+}
+
+.large.shield {
+  font-size:4em;
+}

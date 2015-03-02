@@ -1,0 +1,68 @@
+[
+  {
+    "name": "lannister",
+    "words": "Hear Me Roar",
+    "points": 0,
+    "description": "The Lannisters of Casterly Rock are one of the Great Houses of the Seven Kingdoms. The Lannisters have prospered through mining gold and extend their influence throughout Westeros, where a Lannister usually rules as the Warden of the West. The sigil of House Lannister is a Lion."
+  },
+  {
+    "name": "stark",
+    "words": "Winter Is Coming",
+    "points": 0,
+    "description": "The Starks rule the North of Westeros from their Ancient seat in Winterfell. They are one of the oldest houses in Westeros, stretching back to when they ruled as the Kings in the North. The sigil of House Stark is a direwolf."
+  },
+  {
+    "name": "baratheon",
+    "words": "Ours Is The Fury",
+    "points": 0,
+    "description": "The Baratheons are one of the Great Houses of Westeros and rule the Stormlands from their seat at Storm's End. Known for their mercurial tempers, the Baratheons have earned their words. The sigil of House Baratheon is a stag."
+  },
+  {
+    "name": "arryn",
+    "words": "As High As Honour",
+    "points": 0,
+    "description": "House Arryn is one of the Great Houses of Westeros and rule the Vale from their seat in the Eyrie. Their line dates back to the Andals and their Andal blood has stayed truer than any other Westerosi family. The sigil of House Arryn is a Falcon."
+  },
+  {
+    "name": "targaryen",
+    "words": "Fire and Blood",
+    "points": 0,
+    "description": "The Targaryens are a surviving Valyrian family line, who escaped after the Doom and came to Westeros. Their seat in Westeros is Dragonstone, although it was also Targaryen Lineage that raised the Red Keep. The Targaryen sigil is a three headed dragon. "
+  },
+  {
+    "name": "martell",
+    "words": "Unbent Unbowed Unbroken",
+    "points": 0,
+    "description": "House Martell is one of the Great Houses of Westeros and rule Dorne from their Prince's Seat at Sunspear. They remain the only one of the Seven Kingdoms to have never been conquered. The sigil of House Martell is a sun, pierced by a spear."
+  },
+  {
+    "name": "tully",
+    "words": "Family Duty Honour",
+    "points": 0,
+    "description": "House Tully is one of the Great Houses of Westeros and rule the Riverlands from Riverrun, their seat on the Tumblestone. The sigil of House Tully is a trout."
+  },
+  {
+    "name": "tyrell",
+    "words": "Growing Strong",
+    "points": 0,
+    "description": "House Tyrell is one of the Great Houses of Westeros and they sit as the Overlords of the Reach from their seat at Highgarden. Traditionally, they also sit as Wardens of the South. House Tyrell's sigil is a golden rose."
+  },
+  {
+    "name": "frey",
+    "words": "Unknown",
+    "points": 0,
+    "description": "House Frey are a noble house of the Riverlands, seated at the Twins. Their strategic position on the Trident has allowed the house to exact a toll on those who wish to cross the river. The sigil of House Frey is a bridge with two towers."
+  },
+  {
+    "name": "bolton",
+    "words": "Our Blades Are Sharp",
+    "points": 0,
+    "description": "House Bolton is an old line from the North, who date back to the First Men. They sit as one of the most powerful houses in the North in The Dreadfort. House Bolton are known for their practice of flaying their enemies. The sigil of House Bolton is a flayed man."
+  },
+  {
+    "name": "greyjoy",
+    "words": "We Do Not Sow",
+    "points": 0,
+    "description": "House Greyjoy is one of the Great Houses of Westeros and they rule over the Iron Islands from their seat on Pyke. They have rebelled against the Throne many times and unlike the rest of Westeros, keep the Drowned God's faith. The sigil of House Greyjoy is a Kraken."
+  }
+]

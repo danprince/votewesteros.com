@@ -1,0 +1,69 @@
+/* Westerosi Family Colors */
+
+@mixin house($color, $fg) {
+  // colour background
+  background-color:$color;
+  color:$color;
+
+  // colour border for shields
+  &.shield:after {
+    border-top-color:$color;
+  }
+}
+
+// Stark - Grey
+$stark:#333;
+$stark-fg:#bcbec0;
+
+// Targs - Red
+$targaryen:#333;
+$targaryen-fg:#be1e2d;
+
+// Tully - Blue
+$tully:#394ea0;
+$tully-fg:#dfeaf7;
+
+// Frey - Grey
+$frey:#bfbdb7;
+$frey-fg:#376885;
+
+// Bolton - Pink
+$bolton:#D3637A;
+$bolton-fg:#ae5c58;
+
+// Lannister - Red
+$lannister:#a3403d;
+$lannister-fg:#ffe893;
+
+// Arryn - Blue
+$arryn:#68a4bc;
+$arryn-fg:#dfe6e7;
+
+// Greyjoy - Grey
+$greyjoy:#404040;
+$greyjoy-fg:#fae899;
+
+// Tyrell - Green
+$tyrell:#909b8b;
+$tyrell-fg:#eec982;
+
+// Martell - Orange
+$martell:#e69d68;
+$martell-fg:#a5694e;
+
+// Baratheon - Yellow
+$baratheon:#f6ca82;
+$baratheon-fg:#000433;
+
+.frey { @include house($frey, $frey-fg); }
+.stark { @include house($stark, $stark-fg); }
+.bolton { @include house($bolton, $bolton-fg); }
+.targaryen { @include house($targaryen, $targaryen-fg); }
+.bolton { @include house($bolton, $bolton-fg); }
+.lannister { @include house($lannister, $lannister-fg); }
+.arryn { @include house($arryn, $arryn-fg); }
+.greyjoy { @include house($greyjoy, $greyjoy-fg); }
+.tyrell { @include house($tyrell, $tyrell-fg); }
+.martell { @include house($martell, $martell-fg); }
+.baratheon { @include house($baratheon, $baratheon-fg); }
+.tully { @include house($tully, $tully-fg); }

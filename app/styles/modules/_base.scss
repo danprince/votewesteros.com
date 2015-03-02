@@ -1,0 +1,75 @@
+@import '../layout';
+@import '../theme';
+
+html {
+  position:relative;
+  min-height:100%;
+  background:$light;
+}
+
+body {
+  margin:0 0 $footer-height;
+  font-family:'Forum', serif;
+  color:#222;
+  font-style:normal;
+}
+
+header {
+  padding-bottom:1em;
+}
+
+footer {
+  position:absolute;
+  left:0;
+  bottom:0;
+  height:$footer-height;
+  width:100%;
+  padding:0.2em;
+}
+
+footer, header {
+  text-align:center;
+}
+
+.houses {
+  position:relative;
+  text-align:center;
+  font-size:1.3em;
+  white-space:nowrap;
+}
+
+.view {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  min-height:100%;
+  z-index:10;
+}
+
+.divider {
+  margin:1em 0;
+  border-bottom:solid 1px #eee;
+}
+
+.content {
+  padding:1em;
+}
+
+h1 {
+  font-weight:normal;
+  text-rendering:optimizelegibility;
+  font-style:normal;
+  font-size:2.74em;
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration:none;
+  color:#1c70b3;
+}
+
+.hidden {
+  display:none;
+}

@@ -1,0 +1,19 @@
+@import '../layout';
+@import '../theme';
+
+.house .bar {
+  -webkit-transition-duration:0.5s;
+  box-shadow:inset 2em 0 rgba(255, 255, 255, 0.1), inset 5em 0 rgba(255, 255, 255, 0.3);
+  font-size:0.5em;
+  width:$shield-width * 2;
+  position:relative;
+  bottom:100%;
+  margin:0 auto;
+  color:rgba(0, 0, 0, 0.4);
+  border-radius:0.2em;
+  bottom:-0.2em;
+
+  .points {
+    line-height:2em;
+  }
+}
